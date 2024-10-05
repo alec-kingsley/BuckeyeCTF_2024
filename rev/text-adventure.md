@@ -13,6 +13,9 @@ If there is an item in the room, you can use `take [item]`, for example: `take t
 If you reach a staircase, you can `go down` or `go up`.
 
 Here's a map of the area you can explore, with items in parentheses
+
+## Map
+
 ```
 *********++++++++++//////////≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ ( nnnnnnnnnn)
 * DEAD  <> SEALED <>        <>  RIVER              (armor) )
@@ -48,7 +51,7 @@ Below are some special commands that can be used in certain rooms:
 ## Dead End
 `reach through the crack in the rocks` - prompts the response "What? What crack in the rocks?", to which you can say `the crack in the rocks concealing the magical orb with the flag`, which gives the flag
 
-Example playthrough:
+## Example playthrough
 
 ```
 You've been transported to a faraway magical land! Can you find the flag?
@@ -217,5 +220,7 @@ What? What crack in the rocks?
 There's a crack in the --? Well, it seems you know more about this world than I do. Happy hacking!
 bctf{P33r_1nT0_tH3_j4r_2_f1nd_Th3_S3cR3Ts_d1463580a690f294}
 ```
+
+## Flag
 
 And that's the flag: `bctf{P33r_1nT0_tH3_j4r_2_f1nd_Th3_S3cR3Ts_d1463580a690f294}`

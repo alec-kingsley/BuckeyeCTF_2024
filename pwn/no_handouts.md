@@ -12,20 +12,20 @@ mov    %rsp,%rbp
 sub    $0x20,%rsp
 lea    0xe05(%rip),%rax    ; "system() only works if there's a shell in the first place!"
 mov    %rax,%rdi
-call   1080 <puts@plt>
+call   puts
 mov    0x2dce(%rip),%rax   ; 3fe0 <system@GLIBC_2.2.5>
 mov    %rax,%rsi
 lea    0xe2c(%rip),%rax    ; "Don't believe me? Try it yourself: it's at %p"
 mov    %rax,%rdi
 mov    $0x0,%eax
-call   10a0 <printf@plt>
+call   printf
 lea    0xe48(%rip),%rax    ; "Surely that's not enough information to do anything else."
 mov    %rax,%rdi
-call   1080 <puts@plt>
+call   puts
 lea    -0x20(%rbp),%rax
 mov    %rax,%rdi
 mov    $0x0,%eax
-call   10b0 <gets@plt>
+call   gets
 mov    $0x0,%eax
 leave
 ret

@@ -17,7 +17,7 @@ Here's a map of the area you can explore, with items in parentheses
 ## Map
 
 ```
-*********++++++++++//////////≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ ( nnnnnnnnnn)
+*********++++++++++//////////≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ (nnnnnnnnnnn)
 * DEAD  <> SEALED <>        <>  RIVER              (armor) )
 * END   <> DOOR   <>         ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ (   (sword  )
 * *******++++++++++         /                  (uuuuuuuuuuu)

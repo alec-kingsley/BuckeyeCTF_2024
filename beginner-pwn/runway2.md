@@ -104,7 +104,6 @@ Using that, I built my exploit, with the arguments for the function placed two b
 ```python
 import pwn
 
-pwn.context.terminal = ["tmux", "splitw", "-h"]
 pwn.context.binary = elf = pwn.ELF("./runway2")
 
 

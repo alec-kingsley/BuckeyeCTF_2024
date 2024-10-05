@@ -77,7 +77,6 @@ From here, the exploit is rather straightforward:
 ```python
 import pwn
 
-pwn.context.terminal = ["tmux", "splitw", "-h"]
 pwn.context.binary = elf = pwn.ELF("./runway1")
 
 if pwn.args.REMOTE:

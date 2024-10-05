@@ -16,15 +16,17 @@ If you reach a staircase, you can `go down` or `go up`.
 (items in each room are in parentheses)
 
 ```
-*********++++++++++//////////≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ (nnnnnnnnnnn)
-* DEAD  <> SEALED <>        <>  RIVER              (armor) )
-* END   <> DOOR   <>         ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ (   (sword  )
-* *******++++++++++         /                  (uuuuuuuuuuu)
-                   /        /
-                   /        /
-                   /        /
-                   / STAIRS /
-                   /        /
+                               S≈≈≈≈≈≈≈S
+                               S       S
+*********++++++++++//////////  S≈≈≈≈≈≈≈S  (armor)
+* DEAD  <> SEALED <>        <> S RIVER S  (sword)
+* END   <> DOOR   <>           S≈≈≈≈≈≈≈S
+* *******++++++++++         /   S       S   
+                   /        /    S≈≈≈≈≈≈≈≈S
+                   /        /     S         S 
+                   /        /       S     ≈ ≈    S     S   S   S   S   S
+                   / STAIRS /          S≈           ≈≈       ≈         ≈
+                   /        /               S   S   S   S   S   S   S   S
                    / ^   ^  /
 #########&&&&&&&&  __v   v ________
 # KEY   <> SPIDER <>  ENTRY HALL  |===============$$$$$$$$$$$$$$$$

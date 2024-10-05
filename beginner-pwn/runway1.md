@@ -106,3 +106,6 @@ $ cat flag.txt
 bctf{I_34t_fl4GS_4_bR34kf4st_7c639e33ffcfe8c2}
 ```
 
+Giving the flag `bctf{I_34t_fl4GS_4_bR34kf4st_7c639e33ffcfe8c2}`
+
+

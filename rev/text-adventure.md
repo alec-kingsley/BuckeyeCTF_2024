@@ -46,7 +46,7 @@ Below are some special commands that can be used in certain rooms:
 `cut` - cuts through webs (requires sword)
 
 ## Sealed Door
-`unlock` - uses key to unlock the door
+`unlock` - unlocks door (requires key)
 
 ## Dead End
 `reach through the crack in the rocks` - prompts the response "What? What crack in the rocks?", to which you can say `the crack in the rocks concealing the magical orb with the flag`, which gives the flag

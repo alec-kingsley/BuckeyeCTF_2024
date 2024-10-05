@@ -26,11 +26,11 @@ If you reach a staircase, you can `go down` or `go up`.
                    / STAIRS /
                    /        /
                    / ^   ^  /
-#########&&&&&&&&  __v   v _________
-# KEY   <> SPIDER <>   ENTRY HALL  |===============$$$$$$$$$$$$$$$$
-# ROOM  <>  HALL  <>      (torch)  <>  BRIDGE     <> CRYSTAL ROOM $
-# (key) #&&&&&&&&& _____^  ^_______|===============$    (rope)    $
-#########                                          $$$$$$$$$$$$$$$$
+#########&&&&&&&&  __v   v ________
+# KEY   <> SPIDER <>  ENTRY HALL  |===============$$$$$$$$$$$$$$$$
+# ROOM  <>  HALL  <>     (torch)  <>  BRIDGE     <> CRYSTAL ROOM $
+# (key) #&&&&&&&&& _____^  ^______|===============$    (rope)    $
+#########                                         $$$$$$$$$$$$$$$$
 ```
 
 Below are some special commands that can be used in certain rooms:

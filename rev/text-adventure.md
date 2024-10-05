@@ -12,9 +12,8 @@ If there is an item in the room, you can use `take [item]`, for example: `take t
 
 If you reach a staircase, you can `go down` or `go up`.
 
-Here's a map of the area you can explore, with items in parentheses
-
 ## Map
+(items in each room are in parentheses)
 
 ```
 *********++++++++++//////////≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ (nnnnnnnnnnn)

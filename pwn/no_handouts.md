@@ -31,7 +31,7 @@ leave
 ret
 ```
 
-So this just says where `system` is, and then cals `gets` to provide a free buffer overflow.
+So this just says where `system` is, and then calls `gets` to provide a free buffer overflow.
 It's also given that the flag is located at `/app/flag.txt`
 
 Using the provided location of `system`, we know where `libc` is located. Thanks to this, we can open() the flag, read() its contents, and then puts() the result.

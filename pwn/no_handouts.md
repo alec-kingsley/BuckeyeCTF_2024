@@ -13,7 +13,7 @@ sub    $0x20,%rsp
 lea    0xe05(%rip),%rax    ; "system() only works if there's a shell in the first place!"
 mov    %rax,%rdi
 call   puts
-mov    0x2dce(%rip),%rax   ; 3fe0 <system@GLIBC_2.2.5>
+mov    0x2dce(%rip),%rax   ; system
 mov    %rax,%rsi
 lea    0xe2c(%rip),%rax    ; "Don't believe me? Try it yourself: it's at %p"
 mov    %rax,%rdi

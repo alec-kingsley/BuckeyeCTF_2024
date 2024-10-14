@@ -9,7 +9,7 @@ Decompiling it was rather simple with Ghidra. Several functions had the sole pur
 void take_file(char *file_name) {
   void* dll;
   long thank;
-  char dll_name [40];
+  char dll_name[40];
 
   snprintf(dll_name,0x20,"%s",file_name);
   dll = dlopen(dll_name,1);
@@ -25,7 +25,6 @@ void take_file(char *file_name) {
 void set_dll_name(char *ptr,int len,char *dll_name,int size) {
   char *end;
   int sum;
-  char c;
 
   sum = 0;
   end = ptr + len;
@@ -34,15 +33,14 @@ void set_dll_name(char *ptr,int len,char *dll_name,int size) {
     ptr++;
   } while (ptr != end);
 
-  snprintf(dll_name,size-8,2,0xffffffffffffffff,"/tmp/%x.so",sum);
+  snprintf(dll_name,size,"/tmp/%x.so",sum);
   return;
 }
 
 void main() {
   int len;
-  char *ptr;
+  char *ptr, input[40];
   FILE *stream;
-  char input [40];
 
   len = get_file_size();
   ptr = (void *)malloc(len);
